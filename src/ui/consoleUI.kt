@@ -1,7 +1,7 @@
 package ui
 
 fun main(){
-    addIncomeMenu()
+
 }
 
 private fun mainMenu() {
@@ -57,11 +57,11 @@ private fun addIncomeMenu() {
                 "Enter Amount: ")
         amount = readln().toDouble()
 
-        //TODO("income update")
+        //income update
 
         print("Enter Category: ")
         incomeSalary = readln().toString()
-        println("Your Balance: ") //TODO("display balance after update")
+        println("Your Balance: ") //display balance after update
 
     }
 }
